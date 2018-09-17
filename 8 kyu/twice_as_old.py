@@ -8,7 +8,7 @@
 
 
 def twice_as_old(dad_years_old, son_years_old):
-    difference = dad_years_old - son_years_old
+    
     years = 0
     while dad_years_old != 2 * son_years_old:
         years +=1
