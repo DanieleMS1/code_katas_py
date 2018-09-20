@@ -11,7 +11,7 @@
  Beginner - Reduce but Grow  
  https://www.codewars.com/kata/beginner-reduce-but-grow  
  
- 7kyu
+ 7kyu  
  Simple Fun #2: Circle of Numbers  
  https://www.codewars.com/kata/simple-fun-number-2-circle-of-numbers
  
