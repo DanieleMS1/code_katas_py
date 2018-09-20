@@ -2,5 +2,5 @@
 
 
 ## every day
- 1 - 8Kyu
+ 1 - 8Kyu\n
  1 - 7Kyu
