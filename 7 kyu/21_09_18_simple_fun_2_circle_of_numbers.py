@@ -8,10 +8,16 @@
 # number which is written in the radially
 # opposite position to firstNumber.
 
-def circle_of_numbers(n, fst):
-    #coding and coding..
+from math import floor
 
-print(circle_of_numbers(10,2) , 7)
-print(circle_of_numbers(10,7) , 2)
-print(circle_of_numbers(4,1) , 3)
-print(circle_of_numbers(6,3) , 0)
+def circle_of_numbers(n, fst):
+    array = [x for x in range(n)]
+    return array[floor(fst + n / 2) % n]
+
+#array circolare si fa con % n
+
+
+print(circle_of_numbers(10, 2), 7)
+print(circle_of_numbers(10, 7), 2)
+print(circle_of_numbers(4, 1), 3)
+print(circle_of_numbers(6, 3), 0)

@@ -10,8 +10,25 @@
 #
 # Array will not be empty.
 
+#primo metodo banale
+
+
 def grow(arr):
-    pass
+    mult = 1
+    for i in arr:
+        mult *= i
+    return mult
+#ok ho capito come funziona reduce
+from functools import reduce
+
+def grow(arr):
+    multiply = lambda x, y: x*y
+    return reduce(multiply, arr)
+
+# facciamola in una sola linea
+
+def grow(arr):
+    return reduce(lambda x, y: x*y, arr)
 
 print(grow([1, 2, 3]), 6)
 print(grow([4, 1, 1, 1, 4]), 16)
