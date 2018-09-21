@@ -12,6 +12,6 @@
  http://www.codewars.com/kata/square-n-sum  
  
  7kyu  
- Isograms 
+ Isograms  
  http://www.codewars.com/kata/isograms  
  
