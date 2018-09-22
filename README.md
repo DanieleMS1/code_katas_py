@@ -5,13 +5,13 @@
  1 - 8Kyu  
  1 - 7Kyu
   
-### katas for 21_09_18_  
+### katas for 22_09_18_  
  
- 8kyu  
- Beginner - Reduce but Grow  
- https://www.codewars.com/kata/beginner-reduce-but-grow  
+ 8kyu [x]  
+ Square(n) Sum  
+ http://www.codewars.com/kata/square-n-sum  
  
- 7kyu  
- Simple Fun #2: Circle of Numbers  
- https://www.codewars.com/kata/simple-fun-number-2-circle-of-numbers
+ 7kyu [x]   
+ Isograms  
+ http://www.codewars.com/kata/isograms  
  
