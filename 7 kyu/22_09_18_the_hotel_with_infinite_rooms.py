@@ -32,3 +32,28 @@
 # Given the initial group size you will have
 # to find the group size staying in the hotel
 # on a specified day.
+
+
+#in pratica se la somma di tutte le persone che sono venute in albergo entro il giorno day è > day
+#allora ritorno l'ultimo numero sommato
+
+def group_size(initial_size, day):
+    current_size =  initial_size
+    total_number_of_people = initial_size
+
+    while total_number_of_people < day:
+        current_size += 1
+        total_number_of_people += current_size
+
+    return current_size
+
+#mi dice che il codice è troppo lento
+#vediamo come migliorare
+
+
+
+
+
+print(group_size(1, 6), 3)
+print(group_size(3, 10), 5)
+print(group_size(3, 14), 6)
