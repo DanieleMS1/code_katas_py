@@ -17,7 +17,7 @@ def find_lowest_int(k):
     digits_k = []
     digits_k_next = [1]
 
-    #let's multiply k and k_next
+    # let's multiply k and k_next
 
     while digits_k != digits_k_next:
         lowest_int += 1
@@ -26,16 +26,14 @@ def find_lowest_int(k):
         digits_k.sort()
         digits_k_next.sort()
 
-
-
     return lowest_int
 
 
 print(find_lowest_int(325), 477)
-print(find_lowest_int(599),2394)
+print(find_lowest_int(599), 2394)
 print(find_lowest_int(855), 999)
 
-print(find_lowest_int(1),125874)
-print(find_lowest_int(100),8919)
-print(find_lowest_int(1000),89919)
-print(find_lowest_int(10000),899919)
+print(find_lowest_int(1), 125874)
+print(find_lowest_int(100), 8919)
+print(find_lowest_int(1000), 89919)
+print(find_lowest_int(10000), 899919)

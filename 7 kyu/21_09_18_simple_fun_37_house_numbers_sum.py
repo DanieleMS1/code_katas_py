@@ -36,6 +36,8 @@
 # 0 ≤ inputArray[i] ≤ 10.
 #
 # [output] an integer
+
+
 def house_numbers_sum(inp):
     count = 0
     for n in inp:
@@ -44,13 +46,13 @@ def house_numbers_sum(inp):
         count += n
     return count
 
-#questo era molto facile per un 7kyu vediamo se riesco a scriverlo meglio
+# questo era molto facile per un 7kyu vediamo se riesco a scriverlo meglio
+
 
 def house_numbers_sum(inp):
     return sum(x for x in inp[:inp.index(0)])
 
-#yes sono riuscito a farlo in una linea!
-
+# yes sono riuscito a farlo in una linea!
 
 
 print(house_numbers_sum([5, 1, 2, 3, 0, 1, 5, 0, 2]), 11)

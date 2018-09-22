@@ -32,9 +32,9 @@ def cat_mouse(string):
     return "Caught!"
 
 
-#si poteva fare cosi
-#io pensavo potessero esserci anche cose del tipo C..m....
-#la mia soluzione tiene conto anche ti cose cosi
+# si poteva fare cosi
+# io pensavo potessero esserci anche cose del tipo C..m....
+# la mia soluzione tiene conto anche ti cose cosi
 
 
 def cat_mouse(string):
@@ -47,4 +47,4 @@ print(cat_mouse('C.....m'), "Escaped!")
 print(cat_mouse('C.m'), "Caught!")
 print(cat_mouse('m...C'), "Caught!")
 print(cat_mouse('C...m'), "Caught!")
-#print(cat_mouse('C..m....'), "Caught!") <- questo è quello a cui avevo pensato
+# print(cat_mouse('C..m....'), "Caught!") <- questo è quello a cui avevo pensato

@@ -55,6 +55,7 @@ def DNA_strand(dna):
 
 
 
+
 print(DNA_strand("AAAA"),"TTTT")
 print(DNA_strand("ATTGC"),"TAACG")
 print(DNA_strand("GTAT"),"CATA")

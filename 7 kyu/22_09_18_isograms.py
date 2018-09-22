@@ -29,13 +29,15 @@ def is_isogram(string):
             return False
     return True
 
-#si poteva fare in una linea con i set!
-#un set è un insieme di tutti gli UNICI elementi di un oggetto
-#esempio "daniele" -> [d,a,n,i,e,l]
+# si poteva fare in una linea con i set!
+# un set è un insieme di tutti gli UNICI elementi di un oggetto
+# esempio "daniele" -> [d,a,n,i,e,l]
 #        "123432561" -> [1,2,3,4,5,6]
+
 
 def is_isogram(string):
     return len(string) == len(set(string.lower()))
+
 
 print(is_isogram("Dermatoglyphics"), True)
 print(is_isogram("isogram"), True)

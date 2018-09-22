@@ -5,15 +5,13 @@
 # If the word's length is even, return the
 # middle 2 characters.
 
+
 def get_middle(string):
-    #odd
+    # odd
     if len(string) % 2:
-        return string[int(len(string)/2)]
-    #even
-    return string[int(len(string)/2)-1] + string[int(len(string)/2)]
-
-
-
+        return string[int(len(string) / 2)]
+    # even
+    return string[int(len(string) / 2) - 1] + string[int(len(string) / 2)]
 
 
 print(get_middle("middle"), "dd")

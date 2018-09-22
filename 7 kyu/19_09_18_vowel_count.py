@@ -5,9 +5,10 @@
 # The input string will only consist of lower
 # case letters and/or spaces.
 
+
 def getCount(inputStr):
     num_vowels = 0
-    vowels = ["a","e","i","o","u"]
+    vowels = ["a", "e", "i", "o", "u"]
 
     for c in inputStr:
         if c in vowels:

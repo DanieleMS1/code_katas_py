@@ -10,11 +10,12 @@
 
 from math import floor
 
+
 def circle_of_numbers(n, fst):
     array = [x for x in range(n)]
     return array[floor(fst + n / 2) % n]
 
-#array circolare si fa con % n
+# array circolare si fa con % n
 
 
 print(circle_of_numbers(10, 2), 7)
