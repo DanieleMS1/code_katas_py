@@ -34,11 +34,11 @@
 # on a specified day.
 
 
-#in pratica se la somma di tutte le persone che sono venute in albergo entro il giorno day è > day
-#allora ritorno l'ultimo numero sommato
+# in pratica se la somma di tutte le persone che sono venute in albergo entro il giorno day è > day
+# allora ritorno l'ultimo numero sommato
 
 def group_size(initial_size, day):
-    current_size =  initial_size
+    current_size = initial_size
     total_number_of_people = initial_size
 
     while total_number_of_people < day:
@@ -47,11 +47,14 @@ def group_size(initial_size, day):
 
     return current_size
 
-#mi dice che il codice è troppo lento
-#vediamo come migliorare
+
+# mi dice che il codice è troppo lento
+# vediamo come migliorare
+from math import floor
 
 
-
+def group_size(initial_size, day):
+    return floor((2 * day + initial_size * (initial_size - 1))**0.5 + 0.5)
 
 
 print(group_size(1, 6), 3)
